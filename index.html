@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison de Santé Pluriprofessionnelle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/faq.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo.png" alt="Logo Maison de Santé" class="nav-logo-img"/>
+      <span>Maison de Santé <span>Pluriprofessionnelle</span><br>Gonesse</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Spécialités</a></li>
+      <li><a href="praticiens.html">Praticiens</a></li>
+      <li><a href="actualites.html">Actualités</a></li>
+      <li><a href="#infos">Infos pratiques</a></li>
+      <li><a href="rendez-vous.html" class="nav-cta">Prendre RDV</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">Spécialités</a>
+    <a href="praticiens.html">Praticiens</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="#infos">Infos pratiques</a>
+    <a href="rendez-vous.html">Prendre rendez-vous →</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Médecine générale · Gonesse (95)</p>
+      <h1 class="hero-title">
+        Des soins<br>attentifs à<br><em>votre mesure</em>
+      </h1>
+      <p class="hero-desc">
+        Un suivi médical personnalisé, dans un cadre serein et bienveillant.
+        Parce que chaque patient mérite une écoute attentive.
+      </p>
+      <div class="hero-actions">
+        <a href="rendez-vous.html" class="btn-primary">Prendre rendez-vous</a>
+        <a href="#services" class="btn-ghost">Découvrir les soins</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <!-- Remplacez src par votre photo -->
+      <img src="assets/hero.jpg" alt="Cabinet médical" />
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="about">
+    <div class="about-content reveal">
+      <div class="about-text">
+        <h2 class="about-title">Qu'est-ce que la MSP de Gonesse ?</h2>
+        <p class="about-desc">
+          La <strong>Maison de Santé Pluriprofessionnelle (MSP) de Gonesse</strong> est un centre médical réunissant une équipe pluridisciplinaire de professionnels de santé. Notre objectif : offrir un suivi médical complet et personnalisé à tous nos patients, de l'enfance au grand âge.
+        </p>
+        <p class="about-desc">
+          Grâce à notre approche collaborative et notre expertise variée — médecins généralistes, infirmières, diététicienne — nous assurons une prise en charge globale et coordonnée. Tous les soins sont réalisés dans un cadre bienveillant et professionnel, avec l'écoute comme fondement de nos relations avec nos patients.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-item">
+          <div class="stat-icon">👥</div>
+          <div class="stat-info">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Médecins généralistes</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">💼</div>
+          <div class="stat-info">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Professionnels de santé</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🏥</div>
+          <div class="stat-info">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Spécialités médicales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-header reveal">
+      <p class="section-label">Nos spécialités</p>
+      <h2 class="section-title">Une prise en charge<br><em>complète et humaine</em></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🩺</div>
+        <h3 class="service-title">Médecine générale</h3>
+        <p class="service-desc">Consultations pour adultes et enfants, suivi des pathologies chroniques, certificats et bilans de santé.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">💊</div>
+        <h3 class="service-title">Prévention & Vaccins</h3>
+        <p class="service-desc">Programmes de vaccination, dépistages systématiques et bilans préventifs personnalisés.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">👶</div>
+        <h3 class="service-title">Pédiatrie</h3>
+        <p class="service-desc">Suivi de croissance, carnet de santé, et consultations d'urgence pour les plus jeunes patients.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">👩‍⚕️</div>
+        <h3 class="service-title">Santé de la femme</h3>
+        <p class="service-desc">Consultations gynécologiques, suivi de grossesse, et orientations vers des spécialistes en cas de besoin.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">😴</div>
+        <h3 class="service-title">Apnée du sommeil</h3>
+        <p class="service-desc">Diagnostic et traitement de l'apnée du sommeil, y compris les examens et les solutions de gestion.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🧓</div>
+        <h3 class="service-title">Gériatrie</h3>
+        <p class="service-desc">Suivi médical spécialisé pour les personnes âgées, avec attention aux spécificités de leur santé et à leur bien-être.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🩹</div>
+        <h3 class="service-title">Soins infirmiers</h3>
+        <p class="service-desc">Pansements, injections, prélèvements sanguins et suivi des traitements assurés par nos infirmières diplômées.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🥗</div>
+        <h3 class="service-title">Nutrition & Diététique</h3>
+        <p class="service-desc">Accompagnement nutritionnel personnalisé, gestion du poids et adaptation des régimes selon vos besoins médicaux.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÉQUIPE MÉDICALE -->
+  <section id="doctors">
+    <div class="section-header reveal">
+      <p class="section-label">Notre équipe</p>
+      <h2 class="section-title">Nos praticiens<br><em>à votre service</em></h2>
+    </div>
+    <div class="doctors-intro reveal">
+      <p class="section-text">
+        L’équipe de la Maison de Santé accompagne chaque patient avec un suivi personnalisé, une expertise pluridisciplinaire et une écoute soignée.
+        Retrouvez la présentation détaillée de nos médecins et de nos infirmières sur la page dédiée.
+      </p>
+      <a href="praticiens.html" class="btn-primary">Découvrir les praticiens</a>
+    </div>
+  </section>
+
+  <!-- RDV -->
+  <!-- <section id="rdv">
+    <div class="rdv-intro reveal">
+      <p class="section-label">Consultation</p>
+      <h2 class="section-title">Prenez<br><em>rendez-vous</em></h2>
+      <p class="rdv-desc">Disponible du lundi au vendredi, avec des créneaux d'urgence réservés chaque matin. Réponse sous 24h.</p>
+    </div>
+    <a href="https://www.doctolib.fr/medecin-generaliste/gonesse/fatim-abbad" style="display:block;text-align:center;background-color:#0596DE;color:#ffffff;font-size:14px;overflow:hidden;width:257px;height:40px;border-bottom-right-radius:none;border-bottom-left-radius:none;position:fixed;bottom:0;left:5px;z-index:1000;border-top-left-radius:4px;border-top-right-radius:4px;line-height:40px" target="_blank" data-reactroot=""><span style="font-size:13px">Prendre rendez-vous en ligne</span><img style="height:15px;margin-bottom:3px;vertical-align:middle;width:auto" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib"/></a>
+    <iframe class="doctolib" scrolling="no" src="https://partners.doctolib.fr/medecin-generaliste/gonesse/fatim-abbad/booking/" style="height: 472px; min-height: 472px; width: 100%; overflow: hidden;"></iframe>
+  </section> -->
+
+  <!-- ACTUALITÉS -->
+  <section id="actualites">
+    <div class="section-header reveal">
+      <p class="section-label">Nos actualités</p>
+      <h2 class="section-title">Informations<br><em>récentes et utiles</em></h2>
+    </div>
+    <div class="news-grid">
+      <article class="news-card reveal">
+        <div class="news-date">
+          <span class="news-day">14</span>
+          <span class="news-month">juin</span>
+        </div>
+        <div class="news-content">
+          <h3 class="news-title">Bienvenue à Mme Rania DJERMANE, diététicienne</h3>
+          <p class="news-excerpt">
+            La Maison de Santé accueille Mme Rania DJERMANE, diététicienne diplômée. Elle propose des bilans
+            nutritionnels et des suivis personnalisés — plus de détails dans l'article.
+          </p>
+          <a href="actualites.html" class="news-link">Lire plus →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal">
+        <div class="news-date">
+          <span class="news-day">13</span>
+          <span class="news-month">juin</span>
+        </div>
+        <div class="news-content">
+          <h3 class="news-title">Ouverture du site web</h3>
+          <p class="news-excerpt">
+            Notre nouveau site web est maintenant en ligne ! Découvrez nos services, nos praticiens et prenez facilement rendez-vous en ligne.
+          </p>
+          <a href="actualites.html" class="news-link">Lire plus →</a>
+        </div>
+      </article>
+    </div>
+    <div class="news-cta reveal">
+      <a href="actualites.html" class="btn-ghost">Voir toutes les actualités</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="section-header reveal">
+      <p class="section-label">Questions</p>
+      <h2 class="section-title">Questions<br><em>fréquemment posées</em></h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">📋</span>
+          <span class="faq-question">Quels documents dois-je apporter ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>Apportez votre carte Vitale,  et vos antécédents médicaux si c'est une première consultation. Si vous avez des ordonnances précédentes, n'hésitez pas à les apporter également.</p>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">💳</span>
+          <span class="faq-question">Acceptez-vous la Carte Vitale ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>Oui, nous sommes en Secteur 1 et acceptons l'ensemble des régimes d'assurance maladie.</p>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">⏰</span>
+          <span class="faq-question">Puis-je avoir un RDV rapidement ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>N'hésitez pas à nous appeler ou consulter notre plateforme de prise de rendez-vous Doctolib. En cas d'urgence, contactez le 15 (SAMU).</p>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">💻</span>
+          <span class="faq-question">Comment faire une téléconsultation ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>Appelez-nous ou prenez RDV en ligne en sélectionnant l'option téléconsultation. Nous vous enverrons un lien sécurisé par email pour votre consultation vidéo. Vous pouvez consulter depuis votre domicile en toute sécurité.</p>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">🅰️</span>
+          <span class="faq-question">Consultez-vous les enfants ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>Oui, nos médecins généralistes reçoivent enfants et adultes. Nous disposons également d'une section pédiatrie pour le suivi de croissance et les vaccinations obligatoires.</p>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span class="faq-icon">🔒</span>
+          <span class="faq-question">Mes données personnelles sont-elles sécurisées ?</span>
+          <span class="faq-toggle">+</span>
+        </summary>
+        <div class="faq-answer">
+          <p>Absolument. Nous respectons scrupuleusement le RGPD et les normes de confidentialité médiale. Vos données personnelles et médicales sont protégées selon les standards les plus élevés.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- INFOS PRATIQUES -->
+  <section id="infos">
+    <div class="infos-map reveal">
+      <div class="map-placeholder">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.2356658897093!2d2.4448383767339306!3d48.98707249164158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ac2f20d6c37%3A0xd84632630203326a!2s5%20Pl.%20du%208%20Mai%201945%2C%2095500%20Gonesse!5e0!3m2!1sfr!2sfr!4v1780919835743!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="infos-details reveal">
+      <p class="section-label">Infos pratiques</p>
+      <h2 class="section-title">Nous<br><em>trouver</em></h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div>
+            <small>Adresse</small>
+            <p>5 Place du 8 Mai 1945, 95500 Gonesse</p>
+          </div>
+        </div>
+        <!-- <div class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div>
+            <small>Téléphone</small>
+            <p>01 23 45 67 89</p>
+          </div>
+        </div> -->
+        <div class="contact-card">
+          <div class="contact-card-icon">📧</div>
+          <div>
+            <small>Email</small>
+            <p>contact.medicalf@yahoo.fr</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">🚇</div>
+          <div>
+            <small>Accès</small>
+            <p>Mairie de Gonesse · Bus 23</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="horaires">
+        <h3>Horaires</h3>
+        <div class="horaire-row"><span class="jour">Lundi – Vendredi</span><span class="heure">8h30 – 19h00</span></div>
+        <div class="horaire-row"><span class="jour">Samedi</span><span class="heure">9h00 – 13h00</span></div>
+        <div class="horaire-row ferme"><span class="jour">Dimanche</span><span class="heure">Fermé</span></div>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand-block">
+        <img src="assets/logo2.png" alt="Logo Maison de Santé" class="footer-logo" />
+        <p class="footer-brand">Maison de <span>Santé</span></p>
+        <p class="footer-tagline">Des soins attentifs et personnalisés<br>au cœur de Gonesse.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#services">Spécialités</a></li>
+          <li><a href="praticiens.html">Praticiens</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="rendez-vous.html">Rendez-vous</a></li>
+          <li><a href="#infos">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Légal</h4>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">RGPD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Maison de santé de Gonesse</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">✓ Demande envoyée — nous vous recontactons sous 24h</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

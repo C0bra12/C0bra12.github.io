@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prendre rendez-vous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/rendez-vous.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo.png" alt="Logo Maison de Santé" class="nav-logo-img" />
+      <span>Maison de Santé <span>Pluriprofessionnelle</span><br>Gonesse</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Spécialités</a></li>
+      <li><a href="praticiens.html">Praticiens</a></li>
+      <li><a href="actualites.html">Actualités</a></li>
+      <li><a href="index.html#infos">Infos pratiques</a></li>
+      <li><a href="rendez-vous.html" class="nav-cta">Prendre RDV</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#services">Spécialités</a>
+    <a href="index.html#doctors">L'équipe</a>
+    <a href="index.html#infos">Infos pratiques</a>
+    <a href="rendez-vous.html">Prendre rendez-vous →</a>
+  </div>
+
+  <!-- HERO RDV -->
+  <div class="rdv-hero">
+    <div class="rdv-hero-inner">
+      <p class="hero-eyebrow">Cabinet Médical Gonesse</p>
+      <h1 class="rdv-hero-title">Prendre <em>rendez-vous</em></h1>
+      <p class="rdv-hero-desc">Choisissez votre médecin, puis sélectionnez un créneau directement sur Doctolib.</p>
+    </div>
+  </div>
+
+  <!-- SÉLECTION MÉDECIN -->
+  <main class="rdv-main">
+
+    <div class="rdv-step reveal">
+      <span class="step-num">01</span>
+      <p class="step-label">Choisissez votre médecin</p>
+    </div>
+
+    <div class="doctors-rdv-grid">
+
+      <!-- Dr. ABBAD -->
+      <div class="doctor-rdv-card reveal"
+           data-name="Dr. ABBAD Fatim"
+           data-specialty="Médecine générale"
+           data-doctolib="https://partners.doctolib.fr/medecin-generaliste/gonesse/fatim-abbad/booking/"
+           data-photo="assets/doctor-1.webp"
+           data-availability="Disponible"
+           data-available="true"
+           data-phone="01 23 45 67 89"
+           data-patients-status="">
+        <div class="doctor-rdv-photo">
+          <img src="assets/doctor-1.webp" alt="Dr. ABBAD Fatim" />
+          <div class="availability-badge available">
+            <span class="dot"></span> Disponible
+          </div>
+        </div>
+        <div class="doctor-rdv-info">
+          <p class="doctor-rdv-specialty">Médecine générale</p>
+          <h2 class="doctor-rdv-name">Dr. ABBAD Fatim</h2>
+          <p class="doctor-rdv-desc">Médecine générale · Pédiatrie · Suivi chronique</p>
+          <div class="doctor-rdv-contact">
+            <div class="contact-phone">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:0123456789">01 01 01 01 01</a>
+            </div>
+            <div class="doctor-patients-status" data-status=""></div>
+          </div>
+          <div class="doctor-rdv-tags">
+            <span>Secteur 1</span>
+            <span>Carte Vitale</span>
+            <span>Téléconsultation</span>
+          </div>
+        </div>
+        <button class="btn-rdv-select">
+          <span>Prendre rendez-vous sur <img src="https://www.doctolib.fr/external_button/doctolib-blue-transparent.png" alt="Doctolib" style="height: 18px; vertical-align: -4px;" /></span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        
+      <div class="horaires">
+        <h3>Horaires</h3>
+        <div class="horaire-row"><span class="jour">Lundi – Mardi</span><span class="heure">9h00 – 12h30 / 14h00 – 18h00</span></div>
+        <div class="horaire-row ferme"><span class="jour">Mercredi</span><span class="heure">Fermé</span></div>
+        <div class="horaire-row"><span class="jour">Jeudi - Vendredi</span><span class="heure">9h00 – 12h30 / 14h00 – 18h00</span></div>       
+        <div class="horaire-row ferme"><span class="jour">Weekend</span><span class="heure">Fermé</span></div>
+      </div>
+        
+      </div>
+
+      <!-- Dr. Machou -->
+      <div class="doctor-rdv-card reveal"
+           data-name="Dr. MACHOU Mourad"
+           data-specialty="Médecine générale"
+           data-doctolib="https://www.partners.doctolib.fr/medecin-generaliste/gonesse/mourad-machou/booking/"
+           data-photo="assets/doctor-2.jpg"
+           data-availability="Disponible"
+           data-available="true">
+        <div class="doctor-rdv-photo">
+          <img src="assets/doctor-2.jpg" alt="Dr. MACHOU Mourad" />
+          <div class="availability-badge available">
+            <span class="dot"></span> Disponible
+          </div>
+        </div>
+        <div class="doctor-rdv-info">
+          <p class="doctor-rdv-specialty">Médecine générale & Sport</p>
+          <h2 class="doctor-rdv-name">Dr. MACHOU Mourad</h2>
+          <p class="doctor-rdv-desc">Médecine générale · Pédiatrie · Suivi chronique</p>
+          <div class="doctor-rdv-contact">
+            <div class="contact-phone">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:0198765432">01 01 01 01 01</a>
+            </div>
+            <div class="doctor-patients-status" data-status=""></div>
+          </div>
+          <div class="doctor-rdv-tags">
+            <span>Secteur 1</span>
+            <span>Carte Vitale</span>
+          </div>
+        </div>
+        <button class="btn-rdv-select">
+          <span>Prendre rendez-vous sur <img src="https://www.doctolib.fr/external_button/doctolib-blue-transparent.png" alt="Doctolib" style="height: 18px; vertical-align: -4px;" /></span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        
+      <div class="horaires">
+        <h3>Horaires</h3>
+        <div class="horaire-row"><span class="jour">Lundi – Mercredi</span><span class="heure">9h00 – 12h15 / 14h00 - 17h15</span></div>
+        <div class="horaire-row ferme"><span class="jour">Jeudi</span><span class="heure">Fermé</span></div>
+        <div class="horaire-row"><span class="jour">Vendredi</span><span class="heure">9h00 – 12h15 / 14h30 - 17h30</span></div>
+        <div class="horaire-row ferme"><span class="jour">Weekend</span><span class="heure">Fermé</span></div>
+      </div>
+      </div>
+
+      <!-- Dr. Mouna BOUJNAH-BRITEL -->
+      <div class="doctor-rdv-card reveal"
+           data-name="Dr. Mouna BOUJNAH-BRITEL"
+           data-specialty="Médecine générale"
+           data-doctolib="https://partners.doctolib.fr/medecin-generaliste/gonesse/mouna-britel/booking/"
+           data-photo="assets/doctor-3.jpg"
+           data-availability="Disponible"
+           data-available="true"
+           data-phone="01 55 44 33 22"
+           data-patients-status="no-new">
+        <div class="doctor-rdv-photo">
+          <img src="assets/doctor-3.jpg" alt="Dr. BOUJNAH-BRITEL Mouna" />
+          <div class="availability-badge available">
+            <span class="dot"></span> Disponible
+          </div>
+        </div>
+        <div class="doctor-rdv-info">
+          <p class="doctor-rdv-specialty">Médecine générale</p>
+          <h2 class="doctor-rdv-name">Dr. BOUJNAH-BRITEL Mouna</h2>
+          <p class="doctor-rdv-desc">Médecine générale</p>
+          <div class="doctor-rdv-contact">
+            <div class="contact-phone">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:0155443322">01 01 01 01 01</a>
+            </div>
+          </div>
+          <div class="doctor-rdv-tags">
+            <span>Secteur 1</span>
+            <span>Carte Vitale</span>
+          </div>
+        </div>
+        <br>
+        <button class="btn-rdv-select">
+          <span>Prendre rendez-vous sur <img src="https://www.doctolib.fr/external_button/doctolib-blue-transparent.png" alt="Doctolib" style="height: 18px; vertical-align: -4px;" /></span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        
+      <div class="horaires">
+        <h3>Horaires</h3>
+        <div class="horaire-row"><span class="jour">Lundi</span><span class="heure">9h00 – 12h30 / 14h00 - 18h00</span></div>
+        <div class="horaire-row"><span class="jour">Mardi</span><span class="heure">9h00 – 12h30 / 14h00 - 17h00</span></div>
+        <div class="horaire-row ferme"><span class="jour">Mercredi</span><span class="heure">Fermé</span></div>
+        <div class="horaire-row"><span class="jour">Jeudi</span><span class="heure">9h00 – 12h30 / 14h00 - 17h00</span></div>
+        <div class="horaire-row"><span class="jour">Vendredi</span><span class="heure">9h00 – 12h00 / 14h30 - 17h00</span></div>
+        <div class="horaire-row ferme"><span class="jour">Weekend</span><span class="heure">Fermé</span></div>
+      </div>
+      </div>
+
+    </div>
+
+    <!-- INFO BAS DE PAGE -->
+    <div class="rdv-note reveal">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <p>En cas d'urgence, contactez le <a href="tel:15">15</a> (le SAMU)</p>
+    </div>
+    
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand-block">
+        <img src="assets/logo2.png" alt="Logo Maison de Santé" class="footer-logo" />
+        <p class="footer-brand">Maison de <span>Santé</span></p>
+        <p class="footer-tagline">Des soins attentifs et personnalisés<br>au cœur de Gonesse.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html#services">Spécialités</a></li>
+          <li><a href="index.html#doctors">L'équipe</a></li>
+          <li><a href="rendez-vous.html">Rendez-vous</a></li>
+          <li><a href="index.html#infos">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Légal</h4>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+          <li><a href="#">RGPD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cabinet Médical de Gonesse</span>
+    </div>
+  </footer>
+
+  <!-- MODAL DOCTOLIB -->
+  <div class="doctolib-overlay" id="doctolibOverlay">
+    <div class="doctolib-modal" id="doctolibModal">
+
+      <div class="doctolib-modal-header">
+        <div class="doctolib-modal-doctor">
+          <div class="modal-doctor-photo">
+            <img src="" alt="" id="modalDoctorPhoto" />
+          </div>
+          <div>
+            <p class="modal-doctor-specialty" id="modalSpecialty"></p>
+            <h3 class="modal-doctor-name" id="modalDoctorName"></h3>
+          </div>
+        </div>
+        <button class="doctolib-modal-close" id="modalClose" aria-label="Fermer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="doctolib-modal-body">
+        <div class="doctolib-iframe-wrap" id="doctolibIframeWrap">
+          <div class="doctolib-loading" id="doctolibLoading">
+            <div class="loading-spinner"></div>
+            <p>Chargement de Doctolib…</p>
+          </div>
+          <!-- L'iframe Doctolib est injecté ici par JS -->
+        </div>
+
+        <!-- Fallback si l'iframe est bloquée -->
+        <div class="doctolib-fallback" id="doctolibFallback">
+          <div class="fallback-icon">📅</div>
+          <p class="fallback-title">Prendre rendez-vous avec <span id="fallbackName"></span></p>
+          <p class="fallback-desc">Cliquez sur le bouton ci-dessous pour ouvrir Doctolib et choisir votre créneau.</p>
+          <a href="#" id="fallbackLink" target="_blank" rel="noopener" class="btn-doctolib-open">
+            Ouvrir Doctolib
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+            </svg>
+          </a>
+          <p class="fallback-note">Votre navigateur a bloqué l'intégration. Doctolib s'ouvrira dans un nouvel onglet.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/rendez-vous.js"></script>
+</body>
+</html>
