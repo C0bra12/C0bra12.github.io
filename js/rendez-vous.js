@@ -115,11 +115,13 @@ function closeModal() {
 
 /* ── Événements ── */
 
-// Clic sur une carte ou son bouton
-document.querySelectorAll('.doctor-rdv-card').forEach(card => {
-  card.addEventListener('click', (e) => {
-    // Éviter double-déclenchement si clic sur le bouton (déjà dans la carte)
-    openDoctolibModal(card);
+// Clic sur les boutons de réservation uniquement
+document.querySelectorAll('.doctor-rdv-card .btn-rdv-select').forEach(button => {
+  button.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (button.disabled) return;
+    const card = button.closest('.doctor-rdv-card');
+    if (card) openDoctolibModal(card);
   });
 });
 
