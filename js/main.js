@@ -60,8 +60,7 @@ const toast   = document.getElementById('toast');
 rdvForm.addEventListener('submit', e => {
   e.preventDefault();
 
-  // Ici, branchez votre API ou service d'envoi d'email
-  // ex: fetch('/api/rdv', { method: 'POST', body: new FormData(rdvForm) })
+//API mail (maybe)
 
   showToast('✓ Demande envoyée — nous vous recontactons sous 24h');
   rdvForm.reset();
